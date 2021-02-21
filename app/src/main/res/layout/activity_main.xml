@@ -5,12 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:paddingTop="100dp"
+    android:paddingHorizontal="20dp"
     android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Text to Speech App"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="28dp"
+        />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Escribe aquí..."
+        android:lines="5"
         android:id="@+id/etxescribir"/>
 
     <Button
